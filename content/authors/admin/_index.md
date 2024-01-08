@@ -1,124 +1,76 @@
----
++++
 # Display name
-title: Professor
+name = "Mathijs de Vaan"
 
-# Name pronunciation (optional)
-name_pronunciation: Mathijs de Vaan
-
-# Full name (for SEO)
-first_name: Mathijs
-last_name: de Vaan
-
-# Status emoji
-status:
-  icon: ☕️
+# Username (this should match the folder name)
+authors = ["admin"]
 
 # Is this the primary user of the site?
-superuser: true
+superuser = true
 
-# Role/position/tagline
-role: Professor of Business Administration
+# Role/position
+role = "Associate Professor"
 
-# Organizations/Affiliations to show in About widget
-organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+# Organizations/Affiliations
+#   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
+organizations = [ { name = "University of California Berkeley", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+#bio = "My research interests include social networks and social influence."
 
-# Interests to show in About widget
-interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email = ""
 
-# Education to show in About widget
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+# List (academic) interests or hobbies
+interests = [
+  "Economic Sociology",
+  "Social Networks",
+  "Social Influence",
+  "Medical Sociology",
+  "Science of Science"
+]
 
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups = ["Researchers", "Visitors"]
+
+# List qualifications (such as academic degrees)
+[[education.courses]]
+  course = "PhD in Sociology"
+  institution = "Columbia University"
+  year = 2015
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
----
+[[social]]
+  icon = "envelope"
+  icon_pack = "fas"
+  link = "mailto:mdevaan@berkeley.edu"
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/mathijs-de-vaan-034543108/"
+
+[[social]]
+  icon = "google-scholar"
+  icon_pack = "ai"
+  link = "https://scholar.google.com/citations?user=vSbBL9kAAAAJ&hl=en"
+
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/MathijsdeVaan"
+
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+ [[social]]
+   icon = "cv"
+   icon_pack = "ai"
+   link = "img/cv_mathijs.pdf"
+
++++
+I am Associate Professor of Business Administration at the [Haas School of Business](https://haas.berkeley.edu/faculty/de-vaan-mathijs/) at the University of California Berkeley. I study how people and organizations navigate economic exchange when there is uncertainty about the quality of the product or service that is provided. For example, how is CEO compensation set when it is unclear how much the CEO contributes to firm performance? How do we allocate research funding when there is disagreement about the quality of research proposals? How do physicians decide when to prescribe opioids when the benefit to the patient is not obvious? When patients receive medical advice from a health care professional, how do they decide to embrace this advice? In my research, I show that in the absence of accurate information about quality, people, and organizations turn to other sources of information such as endorsements from people in their social networks and status characteristics of the providers of the service. My research designs leverage institutional features of the settings I study to rule out alternative explanations.    
