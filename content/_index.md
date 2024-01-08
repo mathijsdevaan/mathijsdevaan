@@ -62,6 +62,14 @@ sections:
   #    #   Leave `date_end` empty if it's your current employer.
   #    #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
   #    columns: '2'
+  # - block: Accomplishments
+  #  content:
+  #    title: Skills
+  #    text: ''
+  #    # Choose a user to display skills from (a folder name within `content/authors/`)
+  #    username: admin
+  #  design:
+  #    columns: '1'
     - block: collection
     id: posts
     content:
