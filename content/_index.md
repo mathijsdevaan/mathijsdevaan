@@ -62,15 +62,31 @@ sections:
   #    #   Leave `date_end` empty if it's your current employer.
   #    #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
   #    columns: '2'
-  # - block: Accomplishments
+  # - block: accomplishments
   #  content:
-  #    title: Skills
-  #    text: ''
-  #    # Choose a user to display skills from (a folder name within `content/authors/`)
-  #    username: admin
+  #    # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+  #    title: 'Accomplish&shy;ments'
+  #    subtitle:
+  #    # Date format: https://docs.hugoblox.com/customization/#date-format
+  #    date_format: Jan 2006
+  #    # Accomplishments.
+  #    #   Add/remove as many `item` blocks below as you like.
+  #    #   `title`, `organization`, and `date_start` are the required parameters.
+  #    #   Leave other parameters empty if not required.
+  #    #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #    items:
+  #      - certificate_url: https://www.coursera.org
+  #        date_end: ''
+  #        date_start: '2021-01-25'
+  #        description: ''
+  #        icon: coursera
+  #        organization: Coursera
+  #        organization_url: https://www.coursera.org
+  #        title: Neural Networks and Deep Learning
+  #        url: ''
   #  design:
-  #    columns: '1'
-    - block: collection
+  #    columns: '2'
+  - block: collection
     id: posts
     content:
       title: Recent Posts
