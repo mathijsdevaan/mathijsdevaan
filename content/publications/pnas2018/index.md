@@ -3,6 +3,7 @@
 
 title: 'The Matthew Effect in Science Funding'
 subtitle: ''
+publication: '*Proceedings of the National Academy of Sciences*'
 summary: ''
 authors:
 - Thijs Bol
