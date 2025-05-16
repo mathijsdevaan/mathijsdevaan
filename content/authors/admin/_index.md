@@ -25,9 +25,8 @@ email = ""
 interests = [
   "Economic Sociology",
   "Social Networks",
-  "Social Influence",
-  "Medical Sociology",
-  "Science of Science"
+  "Artifical Intelligence",
+  "Future of work"
 ]
 
 # Organizational groups that you belong to (for People widget)
