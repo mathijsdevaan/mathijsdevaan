@@ -1,75 +1,62 @@
-+++
+---
 # Display name
-name = "Mathijs de Vaan"
-
-# Username (this should match the folder name)
-authors = ["admin"]
+title: "Mathijs de Vaan"
 
 # Is this the primary user of the site?
-superuser = true
+superuser: true
 
 # Role/position
-role = "Associate Professor"
+role: Associate Professor
 
-# Organizations/Affiliations
-#   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "University of California Berkeley", url = "" } ]
+# Organizations/Affiliations to show in About widget
+organizations:
+  - name: University of California Berkeley
+    url: https://haas.berkeley.edu/
 
 # Short bio (displayed in user profile at end of posts)
 #bio = "My research interests include social networks and social influence."
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+# Interests to show in About widget
+interests:
+  - Economic Sociology
+  - Social Networks
+  - Artifical Intelligence
+  - Future of work
 
-# List (academic) interests or hobbies
-interests = [
-  "Economic Sociology",
-  "Social Networks",
-  "Artifical Intelligence",
-  "Future of work"
-]
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Researchers", "Visitors"]
-
-# List qualifications (such as academic degrees)
-[[education.courses]]
-  course = "PhD in Sociology"
-  institution = "Columbia University"
-  year = 2015
+# Education to show in About widget
+education:
+  courses:
+    - course: PhD in Sociology
+      institution: Columbia University
+      year: 2015
 
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:mdevaan@berkeley.edu
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=vSbBL9kAAAAJ&hl=en
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/mathijs-de-vaan-034543108/
 
-[[social]]
-  icon = "envelope"
-  icon_pack = "fas"
-  link = "mailto:mdevaan@berkeley.edu"
+# Link to a PDF of your resume/CV.
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
+# and uncomment the lines below.
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
 
-[[social]]
-  icon = "linkedin"
-  icon_pack = "fab"
-  link = "https://www.linkedin.com/in/mathijs-de-vaan-034543108/"
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: 'mdevaan@berkeley.edu'
 
-[[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.com/citations?user=vSbBL9kAAAAJ&hl=en"
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 
-[[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://twitter.com/MathijsdeVaan"
-
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
- [[social]]
-   icon = "cv"
-   icon_pack = "ai"
-   link = "uploads/resume.pdf"
-
-+++
+---
 Mathijs de Vaan is an Associate Professor of Business Administration at the [Haas School of Business](https://haas.berkeley.edu/faculty/de-vaan-mathijs/) at the University of California, Berkeley. His research and teaching interests are in the areas of social networks and influence, artificial intelligence and the future of work, and inefficiences in labor markets.     
