@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: 'The Matthew Effect in Science Funding'
-publication: '*Proceedings of the National Academy of Sciences*'
+publication: 'Proceedings of the National Academy of Sciences'
 summary: ''
 authors:
 - Thijs Bol
@@ -10,7 +10,6 @@ authors:
 - Arnout van de Rijt
 tags: []
 categories: []
-date: 'Proceedings of the National Academy of Sciences (2018)'
 featured: false
 draft: false
 
