@@ -24,11 +24,6 @@ section_id = "publications"
 [design]
   view = 4
 
-[design.background]
-  # Optional styling
-  # color = "navy"
-  # text_color_light = true
-
 [advanced]
   css_style = ""
   css_class = ""
