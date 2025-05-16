@@ -3,7 +3,7 @@
 
 title: 'Gamechanger: The Topology of Creativity'
 publication: 'American Journal of Sociology'
-summary: 'Test'
+summary: ''
 authors:
 - Mathijs de Vaan
 - Balazs Vedres
