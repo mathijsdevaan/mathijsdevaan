@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {2025} Mathijs de Vaan.'
+    notice: '© Mathijs de Vaan, 2025.'
     license:
       enable: false
       allow_derivatives: false
