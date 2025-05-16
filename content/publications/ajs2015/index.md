@@ -1,18 +1,16 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'AXDInterpolator: A Tool for Computing Interpolants for Arrays with MaxDiff'
+title: 'Game Changer: The Topology of Creativity'
 subtitle: ''
 summary: ''
 authors:
-- Jose Abel Castellanos Joo
-- Silvio Ghilardi
-- Alessandro Gianola
-- Deepak Kapur
+- Mathijs de Vaan
+- Balazs Vedres
+- David Stark
 tags: []
 categories: []
-date: '2021-01-01'
-lastmod: 2023-06-01T02:18:43-06:00
+date: '2015-01-31'
 featured: false
 draft: false
 
@@ -33,7 +31,6 @@ projects: []
 publishDate: '2023-06-01T08:18:42.966608Z'
 publication_types:
 - '1'
-abstract: ''
-publication: '*19th International Workshop on Satisfiability Modulo Theories co-located
-  with 33rd International Conference on Computer Aided Verification (CAV 2021)*'
+abstract: 'This article examines the sociological factors that explain why some creative teams are able to produce game changers—cultural products that stand out as distinctive while also being critically recognized as outstanding. The authors build on work pointing to structural folding—the network property of a cohesive group whose membership overlaps with that of another cohesive group. They hypothesize that the effects of structural folding on game changing success are especially strong when overlapping groups are cognitively distant. Measuring social distance separately from cognitive distance and distinctiveness independently from critical acclaim, the authors test their hypothesis about structural folding and cognitive diversity by analyzing team reassembly for 12,422 video games and the career histories of 139,727 video game developers. When combined with cognitive distance, structural folding channels and mobilizes a productive tension of rules, roles, and codes that promotes successful innovation. In addition to serving as pipes and prisms, network ties are also the source of tools and tensions.'
+publication: '*American Journal of Sociology*'
 ---
