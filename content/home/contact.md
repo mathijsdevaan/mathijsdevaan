@@ -33,10 +33,10 @@ content:
     postcode: '94720'
     country: United States
     country_code: US
-# coordinates:
+  coordinates:
     latitude: '37.871767384196836'
     longitude: '-122.2531969'
-    directions: Faculty Building, Office 561 on Floor 5
+  directions: Faculty Building, Office 561 on Floor 5
 # office_hours:
 #    - 'Monday 10:00 to 13:00'
 #    - 'Wednesday 09:00 to 10:00'
