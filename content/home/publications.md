@@ -33,5 +33,3 @@ section_id = "publications"
   css_style = ""
   css_class = ""
 +++
-
-<a id="publications"></a>
