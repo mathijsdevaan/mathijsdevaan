@@ -2,8 +2,8 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: 'The Matthew Effect in Science Funding'
-subtitle: ''
 publication: '*Proceedings of the National Academy of Sciences*'
+lastmod: null
 summary: ''
 authors:
 - Thijs Bol
