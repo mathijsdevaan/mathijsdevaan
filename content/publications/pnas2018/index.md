@@ -4,7 +4,7 @@
 title: 'The Matthew Effect in Science Funding'
 publication: '*Proceedings of the National Academy of Sciences*'
 lastmod: null
-summary: ''
+summary: '*Proceedings of the National Academy of Sciences*'
 authors:
 - Thijs Bol
 - Mathijs de Vaan
