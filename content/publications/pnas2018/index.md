@@ -8,10 +8,9 @@ authors:
 - Thijs Bol
 - Mathijs de Vaan
 - Arnout van de Rijt
-- (*Proceedings of the National Academy of Sciences*)
 tags: []
 categories: []
-date: '2018-05-31'
+date: 'Proceedings of the National Academy of Sciences (2018)'
 featured: false
 draft: false
 
