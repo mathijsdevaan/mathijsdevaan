@@ -72,4 +72,4 @@ user_groups = ["Researchers", "Visitors"]
    link = "uploads/resume.pdf"
 
 +++
-Mathijs de Vaan is an Associate Professor of Business Administration at the [Haas School of Business](https://haas.berkeley.edu/faculty/de-vaan-mathijs/) at the University of California Berkeley. His research and teaching interests are in the areas of social networks and influence, artificial intelligence and the future of work, and inefficiences in labor markets.     
+Mathijs de Vaan is an Associate Professor of Business Administration at the [Haas School of Business](https://haas.berkeley.edu/faculty/de-vaan-mathijs/) at the University of California, Berkeley. His research and teaching interests are in the areas of social networks and influence, artificial intelligence and the future of work, and inefficiences in labor markets.     
